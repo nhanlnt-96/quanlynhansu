@@ -1,6 +1,8 @@
 import React from 'react';
+
+import { NavBar, AddNewStaff } from './components';
+
 import './App.css';
-import { NavBar } from './components';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <nav>
         <NavBar />
       </nav>
+      
+      <AddNewStaff />
     </div>
   );
 }

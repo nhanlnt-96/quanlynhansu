@@ -32,12 +32,6 @@ export const NavBar = () => {
                     </ul>
                 </div>
             </div>
-
-            <div className="burger-nav">
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
-            </div>
         </div>
     );
 }

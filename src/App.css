@@ -14,7 +14,7 @@
 }
 
 .NavBar {
-  min-height: 10vh;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,62 +103,8 @@
   transform: translateY(10px);
 }
 
-.burger-nav {
-  display: none;
-}
-
-.burger-nav div {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 5px;
-}
-
-@media screen and (max-width: 867px) {
-  .right-bar {
-    width: 60%;
-  }
-
-  .right-bar button {
-    font-size: 17px;
-  }
-
-  .left-bar {
-    font-size: 12px;
-  }
-
-  .left-bar img {
-    width: 80px;
-  }
-
-  .dropdown ul {
-    width: 210px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    /* overflow-x: hidden; */
-  }
-
-  .NavBar {
-    background: antiquewhite;
-  }
-
-  .right-bar {
-    position: absolute;
-    right: 0px;
-    height: 90vh;
-    top: 10vh;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
-    transform: translateX(100%);
-  }
-
-  /* .dropdown {
-    opacity: 0;
-  } */
+.AddStaff {
+  height: 90vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
 }
