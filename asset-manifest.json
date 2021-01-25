@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quanlynhansu/static/css/main.9b1764da.chunk.css",
+    "main.js": "/quanlynhansu/static/js/main.143a8871.chunk.js",
+    "main.js.map": "/quanlynhansu/static/js/main.143a8871.chunk.js.map",
+    "runtime-main.js": "/quanlynhansu/static/js/runtime-main.58ed236d.js",
+    "runtime-main.js.map": "/quanlynhansu/static/js/runtime-main.58ed236d.js.map",
+    "static/js/2.024632f7.chunk.js": "/quanlynhansu/static/js/2.024632f7.chunk.js",
+    "static/js/2.024632f7.chunk.js.map": "/quanlynhansu/static/js/2.024632f7.chunk.js.map",
+    "static/js/3.6dce4be8.chunk.js": "/quanlynhansu/static/js/3.6dce4be8.chunk.js",
+    "static/js/3.6dce4be8.chunk.js.map": "/quanlynhansu/static/js/3.6dce4be8.chunk.js.map",
+    "index.html": "/quanlynhansu/index.html",
+    "static/css/main.9b1764da.chunk.css.map": "/quanlynhansu/static/css/main.9b1764da.chunk.css.map",
+    "static/js/2.024632f7.chunk.js.LICENSE.txt": "/quanlynhansu/static/js/2.024632f7.chunk.js.LICENSE.txt",
+    "static/media/logo.4cc9554d.png": "/quanlynhansu/static/media/logo.4cc9554d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58ed236d.js",
+    "static/js/2.024632f7.chunk.js",
+    "static/css/main.9b1764da.chunk.css",
+    "static/js/main.143a8871.chunk.js"
+  ]
+}
