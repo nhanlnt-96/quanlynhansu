@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
@@ -35,7 +48,7 @@
 }
 
 .left-bar img {
-  width: 85px;
+  width: 70px;
   padding: 5px;
 }
 
@@ -96,27 +109,21 @@
   background-color: wheat;
 }
 
-.dropdown button:focus + ul {
+.dropdown button:focus+ul {
   opacity: 1;
   pointer-events: all;
   transform: translateY(10px);
 }
 
 .AddStaff {
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.personal-info {
-  display: grid;
-  grid-column: 1/3;
   grid-template-rows: repeat(3, 1fr);
+  background: ivory;
 }
 
-.personal-id,
-.personal-add,
-.general-info {
+.general-info, .personal-id, .personal-add {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -124,4 +131,21 @@
 .box1 {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.box1 label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.box1 input, select {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  width: 50%;
 }
