@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "dept": "Anh văn"
+    },
+    {
+        "id": 2,
+        "dept": "Hội họa"
+    },
+    {
+        "id": 3,
+        "dept": "Nhân sự"
+    },
+    {
+        "id": 4,
+        "dept": "Chi nhánh"
+    },
+    {
+        "id": 5,
+        "dept": "Kế toán"
+    },
+    {
+        "id": 6,
+        "dept": "Liên kết"
+    },
+    {
+        "id": 7,
+        "dept": "Đào tạo"
+    }
+]

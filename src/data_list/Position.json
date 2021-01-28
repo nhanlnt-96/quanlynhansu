@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "position": "Nhân viên"
+    },
+    {
+        "id": 2,
+        "position": "Chuyên viên"
+    },
+    {
+        "id": 3,
+        "position": "Cán bộ"
+    },
+    {
+        "id": 4,
+        "position": "Giáo viên"
+    }
+]

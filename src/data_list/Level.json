@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "level": "Trung cấp"
+    },
+    {
+        "id": 2,
+        "level": "Cao đẳng"
+    },
+    {
+        "id": 3,
+        "level": "Đại học"
+    },
+    {
+        "id": 4,
+        "level": "Trên Đại học"
+    }
+]
